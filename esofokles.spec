@@ -46,9 +46,9 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*
-%dir %{_prefix}/lib/esofokles
-%{_prefix}/lib/esofokles/MySql.Data.dll
-%{_prefix}/lib/esofokles/esofokles.exe
+%dir %{_libdir}/esofokles
+%{_libdir}/esofokles/MySql.Data.dll
+%{_libdir}/esofokles/esofokles.exe
 %{_desktopdir}/esofokles.desktop
 %{_pixmapsdir}/esofokles.ico
 %{_pixmapsdir}/esofokles.png
