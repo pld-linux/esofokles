@@ -2,7 +2,7 @@ Summary:	e-Sofokles
 Summary(pl):	e-Sofokles to polski program dla szkó³. Pozwala na zarz±dzanie list± klas, uczniów i ich danymi.
 Name:		esofokles
 Version:	0.90.2
-Release:	0.1
+Release:	0.2
 License:	GPL-v2
 Group:		Applications
 Source0:	http://irc.linux.pl/~spider/source/%{name}-%{version}.tar.gz
