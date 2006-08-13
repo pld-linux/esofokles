@@ -5,10 +5,12 @@ Version:	0.90.2
 Release:	0.1
 License:	GPL-v2
 Group:		Applications
-Source0:	%{name}-%{version}.tar.gz
+Source0:	http://irc.linux.pl/~spider/source/%{name}-%{version}.tar.gz
+# Source0-md5:	57589cd8459823cb45a03e4859c0aef2
 URL:		http://www.esofokles.ab-com.pl/
-#BuildRequires:	mono
-#Requires:	mono
+BuildRequires:	dotnet-gtk-sharp2-devel >= 2.5.91-2
+BuildRequires:	gettext-devel
+BuildRequires:	mono-csharp >= 1.1.9
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
