@@ -1,5 +1,5 @@
-Summary:	e-Sofokles
-Summary(pl):	e-Sofokles to polski program dla szkó³. Pozwala na zarz±dzanie list± klas, uczniów i ich danymi.
+Summary:	e-Sofokles - Polish application to manage school divisions and students
+Summary(pl):	e-Sofokles - polski program dla szkó³ do zarz±dzania list± klas, uczniów i ich danymi
 Name:		esofokles
 Version:	0.90.2
 Release:	0.2
@@ -14,14 +14,20 @@ BuildRequires:	mono-csharp >= 1.1.9
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-e-Sofokles
+e-Sofokles is a Polish application for schools. It's designed to
+manage schoold division and student lists and their personal data,
+marks and notes. It allows to generate reports for parents. The
+application is multi-platform - it can work in different operating
+systems, including Windows and Linux. It's easy to use with nice GUI.
+The application includes network interface for parents, which allows
+browsing students' marks, notes and attendance.
 
 %description -l pl
 e-Sofokles to polski program dla szkó³. Pozwala na zarz±dzanie list±
 klas, uczniów i ich danymi personalnymi, ocenami, uwagami. Umo¿liwia
 tak¿e tworzenie raportów dla rodziców. Aplikacja jest
-wieloplatformowa, co oznacza, ¿e mo¿emy j± uruchomiæ w ró¿nych
-systemach operacyjnych, m. in. w Windowsie i Linuksie. Obs³uga
+wieloplatformowa, co oznacza, ¿e mo¿na j± uruchomiæ pod kontrol±
+ró¿nych systemów operacyjnych, m.in. Windows i Linuksa. Obs³uga
 programu jest prosta - ma ³atwy w obs³udze graficzny interfejs
 u¿ytkownika. Ponadto aplikacja posiada interfejs sieciowy dla
 rodziców, który umo¿liwia przegl±danie ocen, uwag i frekwencji
