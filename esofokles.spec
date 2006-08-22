@@ -1,11 +1,13 @@
+# TODO - BuildRequires/Requires
+#
 Summary:	e-Sofokles - Polish application to manage school divisions and students
 Summary(pl):	e-Sofokles - polski program dla szkó³ do zarz±dzania list± klas, uczniów i ich danymi
 Name:		esofokles
 Version:	0.90.2
-Release:	0.2
+Release:	0.9
 License:	GPL-v2
 Group:		Applications
-Source0:	http://irc.linux.pl/~spider/source/%{name}-%{version}.tar.gz
+Source0:	http://www.esofokles.ab-com.pl/download/sources/%{name}-%{version}.tar.gz
 # Source0-md5:	57589cd8459823cb45a03e4859c0aef2
 URL:		http://www.esofokles.ab-com.pl/
 BuildRequires:	dotnet-gtk-sharp2-devel >= 2.5.91-2
