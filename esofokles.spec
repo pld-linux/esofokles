@@ -1,7 +1,7 @@
 # TODO - BuildRequires/Requires
 #
 Summary:	e-Sofokles - Polish application to manage school divisions and students
-Summary(pl.UTF-8):   e-Sofokles - polski program dla szkół do zarządzania listą klas, uczniów i ich danymi
+Summary(pl.UTF-8):	e-Sofokles - polski program dla szkół do zarządzania listą klas, uczniów i ich danymi
 Name:		esofokles
 Version:	1.0
 Release:	0.9
