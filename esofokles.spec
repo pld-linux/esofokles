@@ -4,7 +4,7 @@ Summary:	e-Sofokles - Polish application to manage school divisions and students
 Summary(pl.UTF-8):	e-Sofokles - polski program dla szkół do zarządzania listą klas, uczniów i ich danymi
 Name:		esofokles
 Version:	1.0
-Release:	0.9
+Release:	1
 License:	GPL-v2
 Group:		Applications
 Source0:	http://www.esofokles.ab-com.pl/download/sources/%{name}-%{version}.tar.gz
