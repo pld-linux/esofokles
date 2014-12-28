@@ -11,7 +11,7 @@ Source0:	http://www.esofokles.ab-com.pl/download/sources/%{name}-%{version}.tar.
 # Source0-md5:	7624dbaa0cc15dcdb8edf996f8665a3a
 URL:		http://www.esofokles.ab-com.pl/
 BuildRequires:	dotnet-gtk-sharp2-devel >= 2.5.91-2
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	mono-csharp >= 1.1.9
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
